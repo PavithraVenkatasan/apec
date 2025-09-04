@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>APEC Login</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,9 +18,13 @@
       background: #fff;
       padding: 40px;
       border-radius: 12px;
-      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-      width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 320px;
       text-align: center;
+    }
+    .login-container img {
+      width: 100px;
+      margin-bottom: 15px;
     }
     .login-container h2 {
       margin-bottom: 20px;
@@ -38,7 +42,7 @@
       width: 100%;
       padding: 12px;
       background: #007BFF;
-      color: white;
+      color: #fff;
       border: none;
       border-radius: 8px;
       font-size: 16px;
@@ -51,12 +55,17 @@
 </head>
 <body>
   <div class="login-container">
+    <!-- Option A: use hosted URL directly -->
+    <img src="https://www.apce.in/images/logo.png" alt="Adhiparasakthi Engineering College Logo" />
+    <!-- Option B: if you downloaded the image, use local file -->
+    <!-- <img src="logo.png" alt="Adhiparasakthi Engineering College Logo" /> -->
     <h2>Login</h2>
     <form action="#" method="post">
-      <input type="text" name="username" placeholder="Enter Username" required>
-      <input type="password" name="password" placeholder="Enter Password" required>
+      <input type="text" name="username" placeholder="Enter Username" required />
+      <input type="password" name="password" placeholder="Enter Password" required />
       <button type="submit">Login</button>
     </form>
   </div>
 </body>
 </html>
+
